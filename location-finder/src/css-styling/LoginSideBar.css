@@ -1,0 +1,18 @@
+.loginDrawer .MuiPaper-root{
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../asserts/starts.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    /* filter: blur(1px); */
+}
+.login, .Register{
+    border: 1px solid white;
+    color: white;
+    background-image: url('../asserts/starts.jpg');
+    background-repeat: no-repeat;
+}
+.login > .details, .Register > .details{
+    color: white;
+}
